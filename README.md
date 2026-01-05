@@ -83,7 +83,7 @@ Python 3.9+
 Git
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/resume-jd-analyzer.git
+git clone https://github.com/Saurab1111/ResumeJDAnalyzer.git
 cd resume-jd-analyzer
 
 2️⃣ Create & Activate Virtual Environment
