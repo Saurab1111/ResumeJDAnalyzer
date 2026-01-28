@@ -14,7 +14,7 @@ def analyze_match(resume_text: str, jd_text: str):
     similarity = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])[0][0]
     match_score = round(similarity * 100, 2)
 
-    feature_names = vectorizer.get_feature_names_out()
+    # feature_names = vectorizer.get_feature_names_out()
 
     resume_tokens = set(resume_clean.split())
     jd_tokens = set(jd_clean.split())
