@@ -22,7 +22,7 @@ def analyze_match(resume_text: str, jd_text: str):
     matched_keywords = list(resume_tokens.intersection(jd_tokens))
     missing_keywords = list(jd_tokens - resume_tokens)
 
-    return {
+    return {                                           #returing the results as a dictionary
         "match_score": match_score,
         "matched_keywords": matched_keywords[:15],
         "missing_keywords": missing_keywords[:15],
